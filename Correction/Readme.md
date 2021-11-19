@@ -31,3 +31,5 @@ ansible-playbook -i inventory index.yaml
 curl http://server-0.scc-edu
 curl http://server-1.scc-edu
 ```
+
+Lien vers le dossier [corrections](../Correction)
