@@ -1,0 +1,11 @@
+---
+- hosts: front
+  become: true
+
+  tasks:
+
+  - name: copie du template
+    ansible.builtin.template:
+      src: index.html.j2
+      dest: /usr/share/nginx/html/index.html
+      force: yes
